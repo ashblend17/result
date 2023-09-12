@@ -16,6 +16,6 @@ roll = t1_rows[1].find('td',style="text-align:right").text
 rows3=tables[2].find_all('tr')
 rows3_td=rows3[7].find_all('td')
 sgpa=rows3_td[1].text
-print(name)
-print(roll)
-print(sgpa)
+# print(name)
+# print(roll)
+# print(sgpa)
